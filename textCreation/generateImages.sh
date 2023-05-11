@@ -1,15 +1,15 @@
 #!/bin/sh
-rm -f images
-touch images
-echo [ >> images
-for d in ./../images/*; do
+rm -f imageTexts
+touch imageTexts
+echo [ >> imageTexts
+for d in ./images/*; do
  echo $d
  python3 main.py --file $d --cols 100
- echo '`' >> images
- cat ./out.txt >> images
- echo '`,' >> images
- echo ''>> images
+ echo '`' >> imageTexts
+ cat ./out.txt >> imageTexts
+ echo '`,' >> imageTexts
+ echo ''>> imageTexts
 done
-echo ] >> images
+echo ] >> imageTexts
 
 
