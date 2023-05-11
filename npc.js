@@ -1,4 +1,4 @@
-import {frames} from './animations/subway.js'
+import {frames} from './animations/anders.js'
 
 var frame = 0
 setInterval(() => {
