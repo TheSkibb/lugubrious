@@ -14,4 +14,5 @@
 
 rm -f ./images/*
 #python3 converter.py
-ffmpeg -i textCreation/video/ohioboys.mp4 -vf fps=1 out%d.png
+ffmpeg -i video/ohioboys.mp4 -vf fps=4/1 images/out%d.png
+./generateImages.sh
