@@ -5,7 +5,10 @@
   "main": "npc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node npc.js"
+    "run": "node npc.js",
+    "ohio": "node npc.js ohio",
+    "amogus": "node npc.js amogus",
+    "subway": "node npc.js subway"
   },
   "repository": {
     "type": "git",
