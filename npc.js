@@ -1,4 +1,4 @@
-import {frames} from './animations/ohio.js'
+import {frames} from './textCreation/imageTexts.js'
 
 var frame = 0
 setInterval(() => {
