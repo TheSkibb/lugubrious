@@ -1,6 +1,12 @@
 //import {frames} from './textCreation/imageTexts.js'
 var frames
-if(process.argv[2]){
+console.log(process.env.npm_config_animation)
+if(process.env.npm_config_animation){
+  import('./animations/' + process.env.npm_config_animation+ '.js').then(animation => {
+    animate(animation.frames)
+  })
+}
+else if(process.argv[2]){
   import('./animations/' + process.argv[2] + '.js').then(animation => {
     animate(animation.frames)
   })
