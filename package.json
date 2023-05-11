@@ -1,0 +1,21 @@
+{
+  "name": "luguber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "npc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node npc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSkibb/lugubrious.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheSkibb/lugubrious/issues"
+  },
+  "homepage": "https://github.com/TheSkibb/lugubrious#readme",
+  "type": "module"
+}
