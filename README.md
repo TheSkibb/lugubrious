@@ -8,6 +8,7 @@ to run the default animation (located in ./textCreation/imageTexts.js)
 
 to run one of the examples
 >npm run amogus
+
 >npm run subway
 
 to create an animation from a video run the generateVideo script
